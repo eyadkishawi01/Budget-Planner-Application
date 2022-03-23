@@ -32,18 +32,18 @@ class ScndSplashScreen extends StatelessWidget {
               ),
               const Expanded(child: SizedBox()),
               GreenButton(text: "Create free account"),
-              SizedBox(height: 12),
+              const SizedBox(height: 12),
               NormalButton(
                   text: "Continue with facebook", color: AppColors.facebook),
-              SizedBox(height: 24),
+              const SizedBox(height: 24),
               Text(
                 "Already have an account?",
                 style: TextStyle(fontSize: 16, color: AppColors.witheText),
               ),
-              SizedBox(height: 14),
+              const SizedBox(height: 14),
               NormalButton(
                   text: "Login", color: AppColors.witheText.withOpacity(0.3)),
-              SizedBox(height: 50),
+              const SizedBox(height: 50),
             ],
           ),
         ),
