@@ -18,13 +18,16 @@ class BoldText extends StatelessWidget {
 }
 
 class RegularText extends StatelessWidget {
-  RegularText({Key? key, required this.text}) : super(key: key);
+  RegularText({Key? key, required this.text, required this.size})
+      : super(key: key);
   String text;
+  double size;
+
   @override
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(fontSize: 16, color: AppColors.blackText),
+      style: TextStyle(fontSize: size, color: AppColors.blackText),
     );
   }
 }

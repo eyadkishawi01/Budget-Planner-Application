@@ -49,7 +49,7 @@ class TherdSplashScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 70),
-                GreenButton(text: "Get started"),
+                GreenButton(text: "Get started", width: 327),
               ],
             ),
           ),

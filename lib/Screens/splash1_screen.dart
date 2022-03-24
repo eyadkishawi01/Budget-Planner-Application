@@ -34,7 +34,7 @@ class FirstSplashScreen extends StatelessWidget {
                       color: AppColors.witheText),
                 ),
                 const SizedBox(height: 25),
-                GreenButton(text: 'Let’s get started'),
+                GreenButton(text: 'Let’s get started', width: 303),
                 const SizedBox(height: 60),
                 Text(
                   "Skip this page",

@@ -29,7 +29,7 @@ class MobileNumPage extends StatelessWidget {
               const SizedBox(height: 25),
               BoldText(text: "Let's get started"),
               const SizedBox(height: 100),
-              RegularText(text: "What is your mobile number?"),
+              RegularText(text: "What is your mobile number?", size: 16),
               const SizedBox(height: 10),
               Container(
                 height: 50,
@@ -86,7 +86,7 @@ class MobileNumPage extends StatelessWidget {
               const Expanded(child: SizedBox()),
               Padding(
                 padding: const EdgeInsets.only(bottom: 33.0),
-                child: Center(child: GreenButton(text: "Continue")),
+                child: Center(child: GreenButton(text: "Continue", width: 335)),
               )
             ],
           ),

@@ -2,13 +2,19 @@ import 'package:budgetplannerui/colors.dart';
 import 'package:flutter/material.dart';
 
 class GreenButton extends StatelessWidget {
-  GreenButton({Key? key, required this.text}) : super(key: key);
+  GreenButton({
+    Key? key,
+    required this.text,
+    required this.width,
+  }) : super(key: key);
   String text;
+  double width;
+
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 50,
-      width: 303,
+      width: width,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(25),
         gradient: LinearGradient(
