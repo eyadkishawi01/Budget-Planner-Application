@@ -84,6 +84,7 @@ class AddPhotoPage extends StatelessWidget {
                 padding:
                     const EdgeInsets.only(right: 20.0, left: 20.0, bottom: 50),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     NormalButton(
                         text: "Maybe later",

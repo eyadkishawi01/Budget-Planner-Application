@@ -1,5 +1,6 @@
-import 'package:budgetplannerui/Screens/splash1_screen.dart';
-import 'package:budgetplannerui/colors.dart';
+import 'Screens/one_last_hting_screen.dart';
+import 'Screens/splash1_screen.dart';
+import 'colors.dart';
 import 'package:flutter/material.dart';
 import 'Screens/add_photo_screen.dart';
 import 'Screens/mobile_num_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.black,
       ),
       title: 'Welcome to Flutter',
-      home: AddPhotoPage(),
+      home: OneLastThingPage(),
     );
   }
 }

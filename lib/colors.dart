@@ -17,6 +17,9 @@ class AppColors {
   static final Color shadowGreen = const Color(0xFF76ED92);
   static final Color facebook = const Color(0xFF4666D5);
   static final Color border = const Color(0xFFD8D8D8);
+  static final Color startRed2 = const Color(0xFFEB658D);
+  static final Color endRed2 = const Color(0xFFF8798F);
   static final Color background = const Color(0xFFFCFCFF);
+  // static final Color background = const Color(0xFFFCFCFF);
   // static final Color startyellow = const Color(0xFF7EF192);
 }
