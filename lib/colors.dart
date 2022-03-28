@@ -20,6 +20,6 @@ class AppColors {
   static final Color startRed2 = const Color(0xFFEB658D);
   static final Color endRed2 = const Color(0xFFF8798F);
   static final Color background = const Color(0xFFFCFCFF);
-  // static final Color background = const Color(0xFFFCFCFF);
-  // static final Color startyellow = const Color(0xFF7EF192);
+  static final Color shadowContainer = const Color(0xFFEFF5FF);
+  static final Color unSelected = const Color(0xFFC6C6C6);
 }

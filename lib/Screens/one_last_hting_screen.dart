@@ -49,6 +49,7 @@ class OneLastThingPage extends StatelessWidget {
                     ],
                   ),
                 ),
+                const SizedBox(height: 20),
                 Center(
                   child: Column(
                     children: [

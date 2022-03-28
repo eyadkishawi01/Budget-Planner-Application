@@ -27,7 +27,11 @@ class RegularText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: TextStyle(fontSize: size, color: AppColors.blackText),
+      textAlign: TextAlign.center,
+      style: TextStyle(
+        fontSize: size,
+        color: AppColors.blackText,
+      ),
     );
   }
 }

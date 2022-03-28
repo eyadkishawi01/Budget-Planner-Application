@@ -1,3 +1,5 @@
+import 'Widgets/home_container.dart';
+import 'Screens/home_screen.dart';
 import 'Screens/one_last_hting_screen.dart';
 import 'Screens/splash1_screen.dart';
 import 'colors.dart';
@@ -18,11 +20,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: 'Karla',
-        primaryColor: Colors.black,
-      ),
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
+          hoverColor: Colors.transparent,
+          splashFactory: NoSplash.splashFactory,
+          fontFamily: 'Karla',
+          primaryColor: Colors.black,
+          scaffoldBackgroundColor: AppColors.background),
       title: 'Welcome to Flutter',
-      home: OneLastThingPage(),
+      home: HomePage(),
     );
   }
 }

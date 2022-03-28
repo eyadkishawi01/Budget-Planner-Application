@@ -35,6 +35,7 @@ class GreenButton extends StatelessWidget {
         ],
       ),
       child: TextButton(
+          style: const ButtonStyle(splashFactory: NoSplash.splashFactory),
           onPressed: () {},
           child: Text(
             text,
